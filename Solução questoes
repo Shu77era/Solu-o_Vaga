@@ -1,0 +1,38 @@
+## Numero 1)
+
+#include <stdio.h>
+
+int main()
+
+{
+
+int INDICE = 13, SOMA = 0, K = 0;
+
+   while(K < INDICE){
+
+       K = K + 1;
+
+       SOMA = SOMA + K;
+
+   }
+
+   printf("%d",SOMA);
+
+return 0;
+-----------------------------------------------
+## Numero 2) 
+n = int(input())
+
+a, b = 0, 1
+
+while a < n:
+    a, b = b, a + b
+
+print(a == n)
+--------------------------------------------------
+## Número 3) 
+var reverseString = function(text) {
+    var l = text.split('');
+    l.reverse();
+    return l.join('');
+}
